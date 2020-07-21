@@ -1,3 +1,6 @@
+# Yawn detection implementation on an Android App.
+This app detects if a driver is yawning, hence showing signs of drowsiness. This is implemented using a popular machine learning algorithm for computer vision called Convolutional Neural Networks. No internet connection is required for this app, since the model is not server based. This app can be used for any road trip where there's a possibility of a car crash due to drowsiness. Hopefully, this app can be worked upon to save lives.
+
 # TensorFlow Lite Object Detection Android Demo
 ### Overview
 This is a camera app that continuously detects the objects (bounding boxes and classes) in the frames seen by your device's back camera, using a quantized [MobileNet SSD](https://github.com/tensorflow/models/tree/master/research/object_detection) model trained on the [COCO dataset](http://cocodataset.org/). These instructions walk you through building and running the demo on an Android device.
